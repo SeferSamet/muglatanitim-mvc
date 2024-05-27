@@ -1,0 +1,36 @@
+
+    footer {
+    margin-top: 20%;
+    width: 100%;
+    }
+    footer ul{
+        display:flex;
+        justify-content:center;
+        text-align: center;
+        align-items:center;
+    }
+
+    .copyright-area {
+    background: #202020;
+    padding: 25px 0;
+    }
+
+    .copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+    }
+
+    .copyright-text p a {
+    color: #ff5e14;
+    }
+
+    .footer-menu li {
+    display: block;
+    margin-bottom: 10px;
+    }
+
+    .footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+    }

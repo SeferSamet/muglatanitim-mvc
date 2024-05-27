@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+   
+}
+/* Ana html 1rem=10px olması için*/
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;/* x düzeyindeki aşırı büyüklük için (taşmalar vs.)*/
+}
+body{
+    /*background-color: rgb(4, 11, 29);*/ background-color: #5c819e; 
+    height: 200vh;
+}
+section{
+    padding:3.5rem 7%; /*Sağdan solda 7% lik v verildi. top ve bottom 35px . tüm seciton elementleri için hepsi aynı hizada olmalı.*/
+   
+}
+.btn{
+    background-color: #5E90BF;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem ;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);
+   
+}
+.btn:hover{
+    background-color:#a8cae7 ;
+}
+.btn-ex{
+    background-color: #FFFFFF;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem ;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);
+   
+}
+.btn-ex:hover{
+    background-color:#a8cae7 ;
+}
+
+
+
+/* Header Start */
+
+
+.header .logo img{
+    height: 10rem;
+    border-radius: 3rem;
+}
+.header{
+    animation: animheader2 1s;     /*Tam tersi bir etki için*/
+    animation-fill-mode: forwards;
+
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 100;
+    display: flex;/* Yan yana olmasını sağlamak için*/
+    align-items: center;/* elementler dikeyde merkez oldu*/
+    justify-content: space-between;/* Sol orta ve sağ olarak hizalandı*/
+
+    padding:0 7%;/* Sağdan ve soldan 7 padding top ve bottom 0*/
+    position: sticky;
+    margin: 2rem ; /* top ve bottom 2rem , right ve left 7% lik */
+    
+}
+.header.sticky{
+    top:0;
+    position: sticky;
+    z-index: 10;
+    animation: animheader 1s;
+    animation-fill-mode: forwards;
+
+    font-size:50%;
+    
+   
+}
+.header.sticky nav ul li .active{
+    color:black;text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);
+}
+.header nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 2rem;
+    font-size: 2rem;
+    color:black;
+   
+}
+.header nav ul li a{
+    text-decoration: none;color:black;
+}
+.header nav ul li .active{color:rgba(255, 255, 255, 0.466); text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);} /* 3. parametre bulanıklıgı ayarlıyor.*/
+.header nav ul li a:hover{
+    color:rgba(255, 255, 255, 0.466);text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);
+}
+.header.sticky nav ul li a:hover{
+    color:rgba(56, 55, 55, 0.466);text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);
+}
+
+
+.header .buttondiv button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;/*buyutec icin*/
+    transition: transform 1s;
+}
+.header .buttondiv button:hover{
+    color:white;
+    transform: rotateY(180deg);
+}
+.header.sticky .buttondiv button:hover{
+    color:rgba(55, 0, 255, 0.466);
+}
+
+.header.sticky .buttondiv{
+    border-left:1.5px dotted black; 
+}
+.header.sticky .logo img{
+    border-radius: 5rem;
+}
+
+/*gizli olan için*/
+ .benimki{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        display:none;
+    }
+
+    .benimki .logo img{
+        margin-left:3.5rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    .benimki {
+        display:block;
+        background-color: #4796D6;
+        font-size:2rem;
+        
+    }
+    .benimki li{
+        margin-left:2.5rem;
+    }
+    .sagdakibut{
+        margin-right:3rem;
+    }
+    .benimki div {
+        background-color: rgb(255, 255, 255);
+    }
+
+
+}
+@media only screen and (max-width: 965px){
+    header nav .nav-links li {
+        font-size: x-small;
+        display:inline;
+    }
+    .enbas{
+        font-size: small;
+    }
+
+}
+@media only screen and (min-width: 965px) and (max-width: 1200px) {
+    header nav .nav-links li {
+        font-size: small;
+        display:inline;
+    }
+    
+    header .logo img{
+        height:1px;
+    }
+
+    
+}
+@media only screen and (min-width:1200px){
+    .enbas{
+        font-size: x-large;
+    }
+    header{
+        font-size:medium;
+    }
+}
+
+
+
+
+@keyframes animheader{
+    from{}
+    to{
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);
+    background-color: white;
+    margin: 2rem 7%;
+    
+  
+    }
+}
+@keyframes animheader2{
+    from{border-radius: 30rem;
+        box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);   /* header a Tam tersi bir etki bırakmak için koydum*/
+        background-color: white;
+        margin: 2rem 7%;}
+    to{
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*basında biz başladı*/
+
+
+.page .row  .img-container{
+    margin:5rem 4rem 4rem 4rem;
+    border-right:2px dashed rgb(228, 228, 228);
+ }
+ .page .row div .text-container{
+     margin:4.5rem 4rem 4rem 4rem;   /* alltaki text container yukardaki imgiöçxn       hepsi eşit ollması ıcın text-c nın dısındakı dıv bozuyo olayı col-xl...*/
+ }
+ .page .row{
+    background-color:#5B8D90 !important; 
+     overflow-x: hidden;/*etki yok bunda sil*/
+     /*margin-top:5rem;*/
+     box-shadow:
+     5px 5px 10px rgba(255, 255, 255, 0.1) /* sağ alt */,
+     -5px -5px 10px rgba(255, 255, 255, 0.1) /* sol üst */,
+     -5px 5px 10px rgba(255, 255, 255, 0.1) /* sol alt */,
+     5px -5px 10px rgba(255, 255, 255, 0.1) ;/* sağ üst */
+     border:2px dashed white;
+     
+ }
+ .page .row:hover{
+    background-color:#5b8d907e !important; 
+}
+ .page .row .img-container .img-fluid:hover{
+    transform: scale(1.05);
+ }
+ .page .row:hover{
+    
+    background-color: rgba(124, 124, 74, 0.76);
+ }
+ 
+ /*hakkımızda yazısı*/
+ .enbas{
+     padding-top: 1%;
+     padding-left: 7%;
+    /* font-size: x-large;*/
+     color: white;
+     border-style:dotted;
+     border-color: white;
+     border-width: 0.3rem 0rem 0.3rem 0rem; /* Sağ, üst, alt, sol kenar kalınlıkları */
+     cursor:default;
+     padding-bottom: 1%;
+ 
+    
+ }
+ 
+ .page .row .img-container .img-fluid {
+     box-shadow:
+     5px 5px 10px rgba(255, 255, 255, 0.1) /* sağ alt */,
+     -5px -5px 10px rgba(255, 255, 255, 0.1) /* sol üst */,
+     -5px 5px 10px rgba(255, 255, 255, 0.1) /* sol alt */,
+     5px -5px 10px rgba(255, 255, 255, 0.1) ;/* sağ üst */
+ }
+ 
+ .page .row div div p{
+     color:white;
+     font-size: 1.7rem;
+ }
+ .page .row  div div h2{
+     color:white;
+   
+ }
+ 
+
+
+
+ .vertical-line {
+    z-index: 2;
+    width: 2px; /* Genişliği artırabilirsiniz */
+    height: 100vh; /* İstediğiniz uzunluğu ayarlayabilirsiniz */
+    border-left: 2px dotted white; /* Dotted çizgi ve rengi */
+ 
+    position: absolute;
+    left:4%;
+}
+
+
+
+
+.field {
+    position:relative;
+    display: flex;
+    width: 330px;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    min-height:10rem;
+    float:right;
+  
+    margin:2% 2rem 2rem 2rem;
+}
+.sns-btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    transition-duration: 0.5s;
+    transform: rotateX(45deg);
+    box-shadow: 0px 10px 5px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.sns-btn--twitter {
+    background-color: #1da1f2;
+}
+.sns-btn--facebook {
+    background-color: #3b5998;
+}
+.sns-btn--instagram {
+    background-color: #dd2b75;
+}
+.sns-btn:hover {
+    transform: scale(1.2);
+    box-shadow: none;
+}
+.sns-btn__icon {
+    font-size: 33px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+.field a{
+    text-decoration: none; /*kapamakıcn*/
+}
+
+
+
+
+
+
+

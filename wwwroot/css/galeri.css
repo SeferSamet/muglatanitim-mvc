@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+   
+}
+/* Ana html 1rem=10px olması için*/
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;/* x düzeyindeki aşırı büyüklük için (taşmalar vs.)*/
+}
+body{
+    /*background-color: rgb(4, 11, 29);*/ background-color: #5c819e; 
+    height: 100vh;
+}
+section{
+    padding:3.5rem 7%; /*Sağdan solda 7% lik v verildi. top ve bottom 35px . tüm seciton elementleri için hepsi aynı hizada olmalı.*/
+   
+}
+.btn{
+    background-color: #5E90BF;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem ;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);
+   
+}
+.btn:hover{
+    background-color:#a8cae7 ;
+}
+.btn-ex{
+    background-color: #FFFFFF;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem ;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);
+   
+}
+.btn-ex:hover{
+    background-color:#a8cae7 ;
+}
+
+
+
+/* Header Start */
+
+
+.header .logo img{
+    height: 10rem;
+    border-radius: 3rem;
+}
+.header{
+    animation: animheader2 1s;     /*Tam tersi bir etki için*/
+    animation-fill-mode: forwards;
+
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 100;
+    display: flex;/* Yan yana olmasını sağlamak için*/
+    align-items: center;/* elementler dikeyde merkez oldu*/
+    justify-content: space-between;/* Sol orta ve sağ olarak hizalandı*/
+
+    padding:0 7%;/* Sağdan ve soldan 7 padding top ve bottom 0*/
+    position: sticky;
+    margin: 2rem ; /* top ve bottom 2rem , right ve left 7% lik */
+    
+}
+.header.sticky{
+    top:0;
+    position: sticky;
+    z-index: 10;
+    animation: animheader 1s;
+    animation-fill-mode: forwards;
+
+    font-size:50%;
+    
+   
+}
+.header.sticky nav ul li .active{
+    color:black;text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);
+}
+.header nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 2rem;
+    font-size: 2rem;
+    color:black;
+   
+}
+.header nav ul li a{
+    text-decoration: none;color:black;
+}
+.header nav ul li .active{color:rgba(255, 255, 255, 0.466); text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);} /* 3. parametre bulanıklıgı ayarlıyor.*/
+.header nav ul li a:hover{
+    color:rgba(255, 255, 255, 0.466);text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);
+}
+.header.sticky nav ul li a:hover{
+    color:rgba(56, 55, 55, 0.466);text-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.13);
+}
+
+
+.header .buttondiv button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;/*buyutec icin*/
+    transition: transform 1s;
+}
+.header .buttondiv button:hover{
+    color:white;
+    transform: rotateY(180deg);
+}
+.header.sticky .buttondiv button:hover{
+    color:rgba(55, 0, 255, 0.466);
+}
+
+.header.sticky .buttondiv{
+    border-left:1.5px dotted black; 
+}
+.header.sticky .logo img{
+    border-radius: 5rem;
+}
+
+/*gizli olan için*/
+ .benimki{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{
+        display:none;
+    }
+
+    .benimki .logo img{
+        margin-left:3.5rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    .benimki {
+        display:block;
+        background-color: #4796D6;
+        font-size:2rem;
+        
+    }
+    .benimki li{
+        margin-left:2.5rem;
+    }
+    .sagdakibut{
+        margin-right:3rem;
+    }
+    .benimki div {
+        background-color: rgb(255, 255, 255);
+    }
+
+
+}
+@media only screen and (max-width: 965px){
+    header nav .nav-links li {
+        font-size: x-small;
+        display:inline;
+    }
+    .enbas{
+        font-size: small;
+    }
+
+}
+@media only screen and (min-width: 965px) and (max-width: 1200px) {
+    header nav .nav-links li {
+        font-size: small;
+        display:inline;
+    }
+    
+    header .logo img{
+        height:1px;
+    }
+  
+
+    
+}
+@media only screen and (min-width:1200px){
+    .enbas{
+        font-size: x-large;
+    }
+    header{
+        font-size:medium;
+    }
+}
+
+
+
+@keyframes animheader{
+    from{}
+    to{
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);
+    background-color: white;
+    margin: 2rem 7%;
+    
+  
+    }
+}
+@keyframes animheader2{
+    from{border-radius: 30rem;
+        box-shadow: 0px 0px 17px -2px rgba(253, 252, 252, 0.75);   /* header a Tam tersi bir etki bırakmak için koydum*/
+        background-color: white;
+        margin: 2rem 7%;}
+    to{
+
+    }
+}
+
+
+
+
+ /*Galeri yazısı*/
+ .enbas{
+     padding-top: 1%;
+     padding-left: 7%;
+    
+     color: white;
+     border-style:dotted;
+     border-color: white;
+     border-width: 0.3rem 0rem 0.3rem 0rem; /* Sağ, üst, alt, sol kenar kalınlıkları */
+     cursor:default;
+     padding-bottom: 1%;
+ 
+    
+ }
+ 
+
+
+
+/*vl icin */
+
+.vertical-line {
+    z-index: 2;
+    width: 2px; /* Genişliği artır */
+    height: 100%; /* İstediğiniz uzunluğu ayarla */
+    border-left: 2px dotted white; /* Dotted çizgi ve rengi */
+ 
+    position: absolute;
+    left:4%;
+}
+
+
+/*galeri start*/
+.randphoto .gercek-photo-container{
+    margin-top:3rem ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));/* Responsive için böyle kullandık daha iyi araştır.*/ 
+    gap:1.5rem;
+   
+        
+   
+    
+}
+.randphoto .gercek-photo-container .photobox img{
+    width: 60rem;
+    height:20rem;
+    object-fit: cover;
+}
+.randphoto .gercek-photo-container .photobox img:hover{
+    transform: scale(1.05);
+}
+.randphoto .gercek-photo-container .photobox img:hover{cursor:pointer;}
+.myslider .disslider{
+    transition:transform 0.5s ease-in-out, box-shadow 1s ease-in-out;
+    
+}
+
+.myslider .disslider:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 5px 10px 5px  rgba(17, 17, 17, 0.5) !important;
+}
+
+
+
+

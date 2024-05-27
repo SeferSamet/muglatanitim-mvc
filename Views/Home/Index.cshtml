@@ -1,0 +1,152 @@
+﻿@{
+    ViewData["Title"] = "Muğla | Anasayfa";
+}
+
+<!-- Sayfa içeriği -->
+
+@section styles {
+    <link rel="stylesheet" href="~/css/style.css" />
+}
+
+    
+ 
+    <body>
+      <!--Header section start-->
+      
+
+      <!--Main Content start-->
+      <section class="anasayfa" >
+        <div class="content animated-element">
+          <h3>Muğla</h3>
+          <p>Eşsiz güzellikteki tarihi eserleri, kendine özgü yemek kültürü ve daha niceleriyle ünlenmiş bir şehir...</p>
+          <a onclick="git('gelbura')" class="btn">Daha Fazla</a>
+        </div>
+      </section>
+      <!--mugla videos section start-->
+      <section class="mugla-videos-box-container">
+        <h3 class="animated-element">Muğla <b>Tanıtım</b> Filmleri</h3>
+  
+        <div class="row " id="gelbura">
+          <div class="col-4" style="margin:2% 0 0 0;">
+            <div class="card text-center animated-element" style="width: 100%;background-color:#A8CAE7;">
+			<a  style="text-decoration:none; color:black;" target= "_blank" href="https://www.youtube.com/watch?v=TPGRJLkVvxs">
+              <img src="~/images/trtbelgeselgorsel.png" class="card-img-top " alt="...">
+              <div class="card-body">
+                <p class="card-text text-center fs-4">Muğla Tanıtım Videosu - TRT Belgesel </p>
+              </div>
+			  </a>
+            </div>
+          </div>
+
+          <div class="col-4  " style="margin:2% 0 0 0;">
+            <div class="card animated-element" style="width: 100%;background-color: #A8CAE7;">
+            
+              <a id="play-video" class="video-play-button" href=""> <span></span></a><!--Bunu sonradan ekle-->
+              <!--<video src="https://mdbcdn.b-cdn.net/img/video/forest.mp4" type="video/mp4" loop class="hover-to-play w-100">
+              </video>-->
+
+				<a  style="text-decoration:none; color:black;" target= "_blank" href="https://www.youtube.com/watch?v=QnrJRaSWbvo">
+              <img src="~/images/turkcegorsel.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center fs-4">Muğla Tanıtım Videosu - Türkçe </p>
+              </div>
+			  </a>
+            </div>
+			
+          </div>
+	
+          <div class="col-4 " style="margin:2% 0 0 0;">
+            <div class="card animated-element" style="width: 100%;background-color: #A8CAE7;">
+             <a  style="text-decoration:none; color:black;" target= "_blank" href="https://www.youtube.com/watch?v=OVY4P5yT6y8">
+			 <img src="~/images/ingilizcegorsel.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center fs-4">Muğla Tanıtım Videosu - İngilizce </p>
+              </div>
+			  </a>
+            </div>
+          </div>
+        </div>
+            <!-- Button trigger modal -->
+
+
+        
+        
+      </section>
+      
+      <!--Rand Photo start -->
+      <section class="randphoto">
+        <h3 class="animated-element">Muğla <b>Galeri</b></h3>
+
+        <!--
+        <div id="image_container" class="container">
+          
+          <div class="flex">
+            <a href="img/photo1.jpg">
+              <img data-bp="img/photo1.jpg" src="img/photo1_thumb.jpg" />
+            </a>
+            <a href="img/photo7.jpg">
+              <img data-bp="img/photo7.jpg" src="img/photo7_thumb.jpg" />                            ASLINDA BURDAKI KODLARI GALERİ FOTO ICIN YAPACAKTIM AMA JS YOK
+            </a>
+            <a href="img/photo2.jpg">
+              <img data-bp="img/photo2.jpg" src="img/photo2_thumb.jpg"
+                data-caption="Example of an optional caption. You can put words here." />
+            </a>
+            <a href="img/photo3.jpg">
+              <img data-bp="img/photo3.jpg" src="img/photo3_thumb.jpg" />
+            </a>
+          </div>
+        </div>-->
+
+
+
+
+
+        
+        <div class="photo-container animated-element" >
+        </div>
+        
+        <div class="gercek-photo-container">
+          <div class="photobox">
+            <a  data-lightbox="mygallery" href="~/images/galeri/10.jpg">
+            <img src="~/images/galeri/10.jpg" class="img-fluid img-thumbnail " style="border:2px solid black;" alt="..."> </a>
+            
+          </div>
+
+          <div class="photobox">
+            <a data-lightbox="mygallery"  href="~/images/ilkbaharda-gezilecek-yerler-listesi-1140x641.jpg">
+          <img src="~/images/ilkbaharda-gezilecek-yerler-listesi-1140x641.jpg" style="border:2px solid black;"  class="img-fluid img-thumbnail " alt="..."> </a>
+          </div>
+
+          <div class="photobox">
+            <a data-lightbox="mygallery"  href="~/images/datcada-gezilecek-yerler-eski-datca.jpg"> </a>
+            <img src="~/images/datcada-gezilecek-yerler-eski-datca.jpg" style="border:2px solid black;"  class="img-fluid img-thumbnail" alt="...">
+          </div>
+
+          <div class="photobox">
+            <a data-lightbox="mygallery"  href="~/images/anasayfabg.jpg">
+            <img src="~/images/anasayfabg.jpg" class="img-fluid img-thumbnail " style="border:2px solid black;" alt="..."> </a>
+          </div>
+        </div>
+        <a href="Galeri/Index"class="btn">Daha Fazlası İçin Tıkla | Galeri</a>
+      </section>
+     <style>
+.randphoto .btn{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    align-items:center;
+    margin-top:2rem;
+    font-size:1.5rem;
+    
+        box-shadow:0px 0px 20px rgba(0,0,0,1);
+    }
+    .randphoto .btn:hover{
+        box-shadow:0px 10px 10px rgba(0,0,0,0.4);
+    }
+    
+     </style>
+      
+      </body>
+      
+      
+      

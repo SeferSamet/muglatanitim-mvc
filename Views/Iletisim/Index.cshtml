@@ -1,0 +1,222 @@
+@using Microsoft.AspNetCore.Http
+
+
+@{
+    ViewData["Title"] = "Muğla | İletişim";
+}
+
+<!-- Sayfa içeriği -->
+
+@section styles {
+    <link rel="stylesheet" href="~/css/iletisim.css" />
+}
+
+     <div class="vertical-line">
+    </div>
+    <h3 class="enbas">Muğla <b>\ İletişim</b> </h3><!--Page İnfo-->
+    <section class="page">
+    <style>
+      .container .social li{
+        display:inline-block;
+      }
+      .contact{
+        font-size:2rem;
+        padding:1rem;
+      }
+      .contact .row h2{
+        width:100%;
+        padding:1rem;
+        border-bottom:2px solid white;
+      }
+      .contact .row table td{
+        float:left;
+        color:
+      }
+      .contact .row table{
+       
+       
+      }
+      .contact .row .social td{
+        float:right;
+        color:
+      }
+      .contact .social button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    background-color: transparent;/*buyutec icin*/
+    transition: transform 1s;
+    }
+    .contact .social button:hover{
+        color:white;
+        transform: rotateY(180deg);
+    }
+    .contact .social{
+      border-top:2px solid white;
+      width:100%;
+      margin-top:1rem;
+      
+    }
+    .contact .row{
+      /*border-left:2px solid white;*/
+      padding-left:10rem;
+      /*border-right:2px solid white;*/
+      padding-right:10rem;
+    }
+    .container form{
+      box-shadow:0px 10px 10px black;
+    }
+
+    
+     
+      </style>
+    <div class="container contact animated-element">
+   
+    <div class="row">
+      <div class="col-12 ">
+        <h2 class="text-center mb-4">İletişim Bilgileri</h2>
+        <p><b>Bize aşağıdaki iletişim bilgileri üzerinden ulaşabilirsiniz:</b></p>
+        <table>
+          <tr>
+            <td ><b>Adres :</b></td> 
+            <td >Muğla, Türkiye</td>
+         </tr>
+         <tr>
+            <td ><b>Telefon :</b></td> 
+            <td >  0216 953 03 03</b></td>
+         </tr>
+         <tr>
+            <td ><b>E-posta :</td> 
+            <td > info@muglatanitim.com</td>
+         </tr>
+       </table>
+    
+       <table class="social">
+          <tr><td><button >
+          <i class="fa-brands fa-instagram"></i>
+        </button></td>
+        <td><button >
+          <i class="fa-brands fa-x-twitter"></i>
+        </button></td>
+        <td><button >
+          <i class="fa-brands fa-instagram"></i>
+        </button></td></tr>
+        
+       </table>
+      
+       
+       
+    
+      </div>
+    </div>
+  </div>
+      <div class="container animated-element" style="margin-top:2%;">
+      
+     
+    
+       <form method="post" class="animated-element" asp-controller="Iletisim" asp-action="Post">
+@{
+    if (TempData["success"] != null)
+    {
+        <div class="alert alert-success">Mesajınız başarıyla iletilmiştir.</div>
+    }
+    else if (TempData["failed"] != null)
+    {
+        <div class="alert alert-danger">Mesajınız iletilirken bir hata oluştu. Lütfen tekrar deneyiniz.</div>
+    }
+}
+
+
+          <table>
+          <tr class="iletisimyazi"><td>Bizimle İletişime Geçin <span id="unlem">!</span</td></tr>
+          </table>
+          
+          <table>
+            <tr>
+              <td>
+                <label>Ad Soyad</label><br>
+              </td>
+
+              <td class="ikinokta">
+                <label>:</label><br>
+              </td>
+
+              <td>
+                <input type="text" name="AdSoyad" class="adSoyad" required>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>
+                <label>Telefon</label><br>
+              </td>
+
+              <td class="ikinokta">
+                <label>:</label><br>
+              </td>
+
+              <td>
+                <input type="tel" name="Telefon" class="telefon" required>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <label>Email</label><br>
+              </td>
+
+              <td class="ikinokta">
+                <label>:</label><br>
+              </td>
+
+              <td>
+                <input type="email" name="Email" class="email" required>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Mesaj</label><br>
+              </td>
+
+              <td class="ikinokta">
+                <label>:</label><br>
+              </td>
+
+              <td>
+                <textarea class="mesaj" name="Mesaj"></textarea required>
+                
+              </td>
+            </tr>
+
+
+            <tr class="gonderbutton">
+              <td>
+                <input type="submit" style="color:white;" value="Gönder">
+              </td>
+            </tr>
+              
+           
+          </table>
+         
+        </form>
+      </div>
+     
+    </section>
+
+
+    
+    <script>
+      function temizleDegerler() {
+      
+        var form = document.getElementByTagName("form");
+
+        
+        var inputlar = form.getElementsByTagName("input");
+        var textarea = form.getElementsByTagName("textarea");
+        textarea[0].value="";
+        for (var i = 0; i < inputlar.length; i++) {
+          inputlar[i].value = "";
+        }
+      }
+    </script>  

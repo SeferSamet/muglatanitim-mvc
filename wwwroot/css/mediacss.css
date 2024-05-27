@@ -1,0 +1,11 @@
+
+@media (min-width: 768px) {
+    .footer-menu li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+        .footer-menu li a:hover {
+            color: #ff5e14;
+        }
+}

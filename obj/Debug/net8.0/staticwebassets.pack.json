@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\adminpage.css",
+      "PackagePath": "staticwebassets\\css\\adminpage.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\basindabiz.css",
+      "PackagePath": "staticwebassets\\css\\basindabiz.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\galeri.css",
+      "PackagePath": "staticwebassets\\css\\galeri.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\hakkimizda.css",
+      "PackagePath": "staticwebassets\\css\\hakkimizda.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\iletisim.css",
+      "PackagePath": "staticwebassets\\css\\iletisim.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\mediacss.css",
+      "PackagePath": "staticwebassets\\css\\mediacss.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\C.jpeg",
+      "PackagePath": "staticwebassets\\images\\C.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\L.png",
+      "PackagePath": "staticwebassets\\images\\L.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\M.png",
+      "PackagePath": "staticwebassets\\images\\M.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\almangorsel.png",
+      "PackagePath": "staticwebassets\\images\\almangorsel.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\anasayfabg.jpg",
+      "PackagePath": "staticwebassets\\images\\anasayfabg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\datcada-gezilecek-yerler-eski-datca.jpg",
+      "PackagePath": "staticwebassets\\images\\datcada-gezilecek-yerler-eski-datca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\18.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\19.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\20.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\galeri\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\galeri\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\ilkbaharda-gezilecek-yerler-listesi-1140x641.jpg",
+      "PackagePath": "staticwebassets\\images\\ilkbaharda-gezilecek-yerler-listesi-1140x641.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\dogalguzellikler.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\dogalguzellikler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\egitim.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\egitim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\ekonomivetarim.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\ekonomivetarim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\güvenlikson.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\güvenlikson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\mugla-map.png",
+      "PackagePath": "staticwebassets\\images\\images\\mugla-map.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\muglacik.png",
+      "PackagePath": "staticwebassets\\images\\images\\muglacik.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\muglasaglik.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\muglasaglik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\muglatarih.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\muglatarih.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\nufusveyerlesim.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\nufusveyerlesim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\ulasim.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\ulasim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\images\\uydudatca.jpg",
+      "PackagePath": "staticwebassets\\images\\images\\uydudatca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\ingilizcegorsel.png",
+      "PackagePath": "staticwebassets\\images\\ingilizcegorsel.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\istockphoto-1422797785-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1422797785-612x612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\mugla.png",
+      "PackagePath": "staticwebassets\\images\\mugla.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\mugladogal.jpg",
+      "PackagePath": "staticwebassets\\images\\mugladogal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\mugladogal2.jpg",
+      "PackagePath": "staticwebassets\\images\\mugladogal2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\muglavid1.jpg",
+      "PackagePath": "staticwebassets\\images\\muglavid1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\oludeniz.jpg",
+      "PackagePath": "staticwebassets\\images\\oludeniz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\play-button.png",
+      "PackagePath": "staticwebassets\\images\\play-button.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\play-icon.png",
+      "PackagePath": "staticwebassets\\images\\play-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\randphoto2.jpg",
+      "PackagePath": "staticwebassets\\images\\randphoto2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\randphotosection.jpg",
+      "PackagePath": "staticwebassets\\images\\randphotosection.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\suisik.gif",
+      "PackagePath": "staticwebassets\\images\\suisik.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\trtbelgeselgorsel.png",
+      "PackagePath": "staticwebassets\\images\\trtbelgeselgorsel.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\images\\turkcegorsel.png",
+      "PackagePath": "staticwebassets\\images\\turkcegorsel.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\OneDrive\\Masaüstü\\mvc_projeler\\muglatanitim\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.muglatanitim.props",
+      "PackagePath": "build\\muglatanitim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.muglatanitim.props",
+      "PackagePath": "buildMultiTargeting\\muglatanitim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.muglatanitim.props",
+      "PackagePath": "buildTransitive\\muglatanitim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.muglatanitim.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
